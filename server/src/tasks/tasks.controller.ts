@@ -1,6 +1,6 @@
 import { Body, Controller, Delete, Get, Param, Post, UseGuards } from '@nestjs/common';
 import { TasksService } from './tasks.service';
-import { AuthenticatedGuard } from '../auth/authenticated,guard';
+import { AuthenticatedGuard } from '../auth/authenticated.guard';
 import { CreateTaskDto, UpdateTaskDto } from './types';
 
 @Controller('tasks')

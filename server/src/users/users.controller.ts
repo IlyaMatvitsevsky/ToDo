@@ -2,7 +2,7 @@ import { Body, Controller, Header, HttpCode, HttpStatus, Post, UseGuards, Reques
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { LocalAuthGuard } from '../auth/local.auth.guard';
-import { AuthenticatedGuard } from '../auth/authenticated,guard';
+import { AuthenticatedGuard } from '../auth/authenticated.guard';
 import { ApiBody, ApiOkResponse } from '@nestjs/swagger';
 import { LoginCheckResponse, LoginUserRequest, LoginUserResponse, LogoutUserResponse, SignUpResponse } from './types';
 
